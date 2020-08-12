@@ -10,4 +10,5 @@ class ProductModel(@Id
                    val id: Long = 0L,
                     val name: String = "",
                     val price: Double = 0.00) {
+                    //comentário teste para Git
 }
