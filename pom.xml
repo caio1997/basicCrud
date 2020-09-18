@@ -20,6 +20,14 @@
 		<kotlin.version>1.3.72</kotlin.version>
 	</properties>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>caio.home.product</name>
+			<url>https://maven.pkg.github.com/caio1997/basicCrud</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
