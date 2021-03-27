@@ -11,4 +11,5 @@ class ProductModel(@Id
                     val name: String = "",
                     val price: Double = 0.00) {
 			val temp: Int = 1
+			val temp01: Int = 1
 }
